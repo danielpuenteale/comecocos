@@ -29,4 +29,5 @@ let up = 0
 let left = 0
 let right = 0
 let down = 0
+document.querySelector
 
