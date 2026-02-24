@@ -5,29 +5,33 @@ function controlteclas(event) {
   let tecla = event.key;
   if (tecla == "ArrowUp") {
     console.log("Arriba");
-    up = up - 5;
-    console.log(up);
+    y = y - 5;
+    console.log(y);
+    document.querySelector(".blanco").style.top = y + "px";
   }
   if (tecla == "ArrowDown") {
     console.log("Abajo");
-    down = down + 5;
-    console.log(down);
+    y = y + 5;
+    console.log(y);
+    document.querySelector(".blanco").style.top = y + "px";
+
   }
     if (tecla == "ArrowLeft") { 
       console.log("Izquierda");
-        left = left - 5;
-        console.log(left);
+        x = x - 5;
+        console.log(x);
+        document.querySelector(".blanco").style.left = x + "px";
     }
     if (tecla == "ArrowRight") {
       console.log("Derecha");
-        right = right + 5;
-        console.log(right);
+        x = x + 5;
+        console.log(x);
+        document.querySelector(".blanco").style.left = x + "px";
     }
 }
 
-let up = 0
-let left = 0
-let right = 0
-let down = 0
-document.querySelector
+let x = 0
+let y = 0
+
+
 
